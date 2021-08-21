@@ -28,7 +28,6 @@
                 android:background="@drawable/text_input_grey_border"
                 android:textCursorDrawable="@drawable/cursor_color"
                 android:inputType="textEmailAddress"
-                android:text="myecodevelopment@gmail.com"
                 android:hint="Email address"
                 />
 
