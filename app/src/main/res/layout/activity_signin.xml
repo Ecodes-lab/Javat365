@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.auth.SigninActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_input_grey_border"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:inputType="textEmailAddress"
+                android:text="myecodevelopment@gmail.com"
+                android:hint="Email address"
+                />
+
+            <Button
+                android:id="@+id/btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg"
+                android:text="@string/btn_continue_signin"
+                android:textSize="17sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By continuing, you agree to the following"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:letterSpacing="0.02"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy &amp; Terms of Use"
+                android:textColor="@color/blueColor"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
