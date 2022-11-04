@@ -9,7 +9,7 @@ import androidx.core.content.ContextCompat.startActivity
 
 object Constants {
 
-    const val BASE_URL: String = "https://api.demo.javat365.com/"
+    const val BASE_URL: String = "[BASE_URL]"
 
 
     /**
